@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Guess_The_Number</title>
+    </head>
+    <header>
+        <h1 class="title_" >Guess the Number</h1>
+    </header>
+    <body onload="start();">
+        
+        <div class="input">
+            <h2 class="notice" id="notice"></h2>
+            <input type="number" placeholder="คำตอบ" id="answer" style="width:40rem;height: 2rem;">
+        </div>
+        <div class="button">
+            <button type="button" onclick="check()" style="width:7rem;height: 3rem;">ตกลง</button>
+        </div>
+        <div class="last_guess_container">
+            <h2 class="last_guess_" id="last_guess"></h2>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+
+
+
+</html>
